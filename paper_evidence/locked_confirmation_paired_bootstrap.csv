@@ -1,0 +1,4 @@
+comparison,scope,image_n,accuracy_difference,ci95_low,ci95_high,bootstrap_draws,seed
+Qwen Target (30%) - Full,all_locked_negatives,500,0.003000,-0.014000,0.020000,10000,20260724
+Qwen Target (30%) - Full,target_absence_confirmed,465,-0.003226,-0.021505,0.015054,10000,20260724
+Qwen Target (30%) - Full,strict_valid_near_miss,465,-0.003226,-0.021505,0.013978,10000,20260724

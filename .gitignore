@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+.env
+*.log
+
+# Locally downloaded benchmarks, checkpoints, and generated runs.
+data/
+runs/
+checkpoints/
+models/
+third_party/
+*.bin
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+

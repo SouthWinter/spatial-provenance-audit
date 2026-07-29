@@ -1,0 +1,11 @@
+scope,group,count
+all,exported,96
+all,missing,0
+DocVQA-lite,exported,48
+DocVQA-lite,persistent_failure,15
+DocVQA-lite,recovered_by_70,19
+DocVQA-lite,stress_control_no_large_drop,15
+TextVQA-lite,exported,48
+TextVQA-lite,persistent_failure,13
+TextVQA-lite,recovered_by_70,23
+TextVQA-lite,stress_control_no_large_drop,17

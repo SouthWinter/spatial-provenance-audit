@@ -1,0 +1,73 @@
+model,intervention,intervention_definition,predictor,correlation,n,estimate,ci_low,ci_high,valid_bootstrap_draws,estimable
+Qwen3-VL-8B,occlusion_drop,Original minus evidence-box-masked yes margin,ecr,spearman,100,0.316881966596,0.121557444777,0.494915878815,10000,1
+Qwen3-VL-8B,occlusion_drop,Original minus evidence-box-masked yes margin,ecr,pearson,100,0.383620692572,0.202183831705,0.556918411115,10000,1
+Qwen3-VL-8B,occlusion_drop,Original minus evidence-box-masked yes margin,local_provenance_precision,spearman,100,0.246392005694,0.0561162117852,0.426335856798,10000,1
+Qwen3-VL-8B,occlusion_drop,Original minus evidence-box-masked yes margin,local_provenance_precision,pearson,100,0.272569815316,0.0867423197302,0.449636486795,10000,1
+Qwen3-VL-8B,occlusion_drop,Original minus evidence-box-masked yes margin,geo_f1,spearman,100,0.274923378586,0.0747267716849,0.451404910273,10000,1
+Qwen3-VL-8B,occlusion_drop,Original minus evidence-box-masked yes margin,geo_f1,pearson,100,0.322177970005,0.133536020561,0.495937081461,10000,1
+Qwen3-VL-8B,occlusion_specific_drop,Evidence-box drop minus same-area random-mask drop,ecr,spearman,100,0.334096288397,0.138426796338,0.511442122659,10000,1
+Qwen3-VL-8B,occlusion_specific_drop,Evidence-box drop minus same-area random-mask drop,ecr,pearson,100,0.391764196304,0.205788479974,0.565855211965,10000,1
+Qwen3-VL-8B,occlusion_specific_drop,Evidence-box drop minus same-area random-mask drop,local_provenance_precision,spearman,100,0.242888742757,0.0512772536082,0.42290115108,10000,1
+Qwen3-VL-8B,occlusion_specific_drop,Evidence-box drop minus same-area random-mask drop,local_provenance_precision,pearson,100,0.275302460392,0.0915020873464,0.451009167686,10000,1
+Qwen3-VL-8B,occlusion_specific_drop,Evidence-box drop minus same-area random-mask drop,geo_f1,spearman,100,0.274101790664,0.0767356815246,0.451661902542,10000,1
+Qwen3-VL-8B,occlusion_specific_drop,Evidence-box drop minus same-area random-mask drop,geo_f1,pearson,100,0.326313699365,0.140060209973,0.496408914209,10000,1
+Qwen3-VL-8B,deletion_drop,Selected-prefix minus evidence-deleted yes margin,ecr,spearman,500,0.307699185965,0.227099899312,0.388665749901,10000,1
+Qwen3-VL-8B,deletion_drop,Selected-prefix minus evidence-deleted yes margin,ecr,pearson,500,0.246604898904,0.194233288481,0.295819615422,10000,1
+Qwen3-VL-8B,deletion_drop,Selected-prefix minus evidence-deleted yes margin,local_provenance_precision,spearman,500,0.283506376597,0.200648226368,0.364090590646,10000,1
+Qwen3-VL-8B,deletion_drop,Selected-prefix minus evidence-deleted yes margin,local_provenance_precision,pearson,500,0.179970894014,0.10935118474,0.252178050028,10000,1
+Qwen3-VL-8B,deletion_drop,Selected-prefix minus evidence-deleted yes margin,geo_f1,spearman,500,0.299134894693,0.217131456866,0.378513924175,10000,1
+Qwen3-VL-8B,deletion_drop,Selected-prefix minus evidence-deleted yes margin,geo_f1,pearson,500,0.215772176843,0.150920466994,0.280482206839,10000,1
+Qwen3-VL-8B,evidence_restoration_gain,Full evidence restoration minus evidence-deleted yes margin,ecr,spearman,500,0.307699185965,0.226175782394,0.389364307345,10000,1
+Qwen3-VL-8B,evidence_restoration_gain,Full evidence restoration minus evidence-deleted yes margin,ecr,pearson,500,0.246604898904,0.19488365047,0.295741084339,10000,1
+Qwen3-VL-8B,evidence_restoration_gain,Full evidence restoration minus evidence-deleted yes margin,local_provenance_precision,spearman,500,0.283506376597,0.203362073642,0.364082515654,10000,1
+Qwen3-VL-8B,evidence_restoration_gain,Full evidence restoration minus evidence-deleted yes margin,local_provenance_precision,pearson,500,0.179970894014,0.110420137229,0.252081558006,10000,1
+Qwen3-VL-8B,evidence_restoration_gain,Full evidence restoration minus evidence-deleted yes margin,geo_f1,spearman,500,0.299134894693,0.215286202312,0.378447188144,10000,1
+Qwen3-VL-8B,evidence_restoration_gain,Full evidence restoration minus evidence-deleted yes margin,geo_f1,pearson,500,0.215772176843,0.153388713889,0.279425073452,10000,1
+Qwen3-VL-8B,restoration_specific_gain,Evidence restoration minus matched-count random restoration,ecr,spearman,500,0.289250167823,0.203842659636,0.372759818133,10000,1
+Qwen3-VL-8B,restoration_specific_gain,Evidence restoration minus matched-count random restoration,ecr,pearson,500,0.242160352816,0.191770030595,0.291945510624,10000,1
+Qwen3-VL-8B,restoration_specific_gain,Evidence restoration minus matched-count random restoration,local_provenance_precision,spearman,500,0.266815843888,0.182793715681,0.348436189031,10000,1
+Qwen3-VL-8B,restoration_specific_gain,Evidence restoration minus matched-count random restoration,local_provenance_precision,pearson,500,0.178606339253,0.108370043414,0.251816928411,10000,1
+Qwen3-VL-8B,restoration_specific_gain,Evidence restoration minus matched-count random restoration,geo_f1,spearman,500,0.27994237902,0.198873679157,0.360304290524,10000,1
+Qwen3-VL-8B,restoration_specific_gain,Evidence restoration minus matched-count random restoration,geo_f1,pearson,500,0.213699893811,0.151002594042,0.280228849246,10000,1
+LLaVA-1.5-7B,occlusion_drop,Original minus evidence-box-masked yes margin,ecr,spearman,50,0.129274908548,-0.158815553503,0.386624636782,10000,1
+LLaVA-1.5-7B,occlusion_drop,Original minus evidence-box-masked yes margin,ecr,pearson,50,0.358216277358,0.125712663927,0.547239919396,10000,1
+LLaVA-1.5-7B,occlusion_drop,Original minus evidence-box-masked yes margin,local_provenance_precision,spearman,50,0.191815902605,-0.102440880094,0.445806884286,10000,1
+LLaVA-1.5-7B,occlusion_drop,Original minus evidence-box-masked yes margin,local_provenance_precision,pearson,50,0.304995884193,0.104307983966,0.53909724348,10000,1
+LLaVA-1.5-7B,occlusion_drop,Original minus evidence-box-masked yes margin,geo_f1,spearman,50,0.200748987117,-0.0860879040932,0.456822603788,10000,1
+LLaVA-1.5-7B,occlusion_drop,Original minus evidence-box-masked yes margin,geo_f1,pearson,50,0.354337098082,0.136866912301,0.569678738294,10000,1
+LLaVA-1.5-7B,occlusion_specific_drop,Evidence-box drop minus same-area random-mask drop,ecr,spearman,50,0.269786176566,-0.0123016440826,0.519151225871,10000,1
+LLaVA-1.5-7B,occlusion_specific_drop,Evidence-box drop minus same-area random-mask drop,ecr,pearson,50,0.360962935511,0.134505119902,0.552920288793,10000,1
+LLaVA-1.5-7B,occlusion_specific_drop,Evidence-box drop minus same-area random-mask drop,local_provenance_precision,spearman,50,0.373650871826,0.0847425205832,0.612175713265,10000,1
+LLaVA-1.5-7B,occlusion_specific_drop,Evidence-box drop minus same-area random-mask drop,local_provenance_precision,pearson,50,0.359658394628,0.176129678547,0.579352463304,10000,1
+LLaVA-1.5-7B,occlusion_specific_drop,Evidence-box drop minus same-area random-mask drop,geo_f1,spearman,50,0.370282008615,0.0752119061577,0.607872347949,10000,1
+LLaVA-1.5-7B,occlusion_specific_drop,Evidence-box drop minus same-area random-mask drop,geo_f1,pearson,50,0.397716235836,0.202659694811,0.603097764636,10000,1
+InternVL3.5-8B,occlusion_drop,Original minus evidence-box-masked yes margin,ecr,spearman,50,0.109235229895,-0.20258729838,0.395970309606,10000,1
+InternVL3.5-8B,occlusion_drop,Original minus evidence-box-masked yes margin,ecr,pearson,50,0.0959078022316,-0.20388424048,0.302069909385,10000,1
+InternVL3.5-8B,occlusion_drop,Original minus evidence-box-masked yes margin,local_provenance_precision,spearman,50,0.133829531813,-0.172733905119,0.421342301024,10000,1
+InternVL3.5-8B,occlusion_drop,Original minus evidence-box-masked yes margin,local_provenance_precision,pearson,50,0.0551814777632,-0.180943881937,0.337036336738,10000,1
+InternVL3.5-8B,occlusion_drop,Original minus evidence-box-masked yes margin,geo_f1,spearman,50,0.141896758703,-0.154603986096,0.411161109528,10000,1
+InternVL3.5-8B,occlusion_drop,Original minus evidence-box-masked yes margin,geo_f1,pearson,50,0.0942672538387,-0.174146426115,0.350999998559,10000,1
+InternVL3.5-8B,occlusion_specific_drop,Evidence-box drop minus same-area random-mask drop,ecr,spearman,50,0.157955168111,-0.146700238706,0.433623626262,10000,1
+InternVL3.5-8B,occlusion_specific_drop,Evidence-box drop minus same-area random-mask drop,ecr,pearson,50,0.125674456798,-0.15580752486,0.33145455046,10000,1
+InternVL3.5-8B,occlusion_specific_drop,Evidence-box drop minus same-area random-mask drop,local_provenance_precision,spearman,50,0.173589435774,-0.121502720794,0.444265839371,10000,1
+InternVL3.5-8B,occlusion_specific_drop,Evidence-box drop minus same-area random-mask drop,local_provenance_precision,pearson,50,0.041634829537,-0.178788269466,0.312334244117,10000,1
+InternVL3.5-8B,occlusion_specific_drop,Evidence-box drop minus same-area random-mask drop,geo_f1,spearman,50,0.184153661465,-0.111935715026,0.455651857482,10000,1
+InternVL3.5-8B,occlusion_specific_drop,Evidence-box drop minus same-area random-mask drop,geo_f1,pearson,50,0.0816836561207,-0.171337917898,0.331164556457,10000,1
+InternVL3.5-8B,deletion_drop,Selected-prefix minus evidence-deleted yes margin,ecr,spearman,500,0.0288447777076,-0.0581014221458,0.11176028767,10000,1
+InternVL3.5-8B,deletion_drop,Selected-prefix minus evidence-deleted yes margin,ecr,pearson,500,0.123821008979,0.0723155164266,0.173581263497,10000,1
+InternVL3.5-8B,deletion_drop,Selected-prefix minus evidence-deleted yes margin,local_provenance_precision,spearman,500,0.0220873304656,-0.0666691252775,0.10741512718,10000,1
+InternVL3.5-8B,deletion_drop,Selected-prefix minus evidence-deleted yes margin,local_provenance_precision,pearson,500,0.0123690106072,-0.0834794465343,0.113661766835,10000,1
+InternVL3.5-8B,deletion_drop,Selected-prefix minus evidence-deleted yes margin,geo_f1,spearman,500,0.0327604567045,-0.054542863825,0.11766432859,10000,1
+InternVL3.5-8B,deletion_drop,Selected-prefix minus evidence-deleted yes margin,geo_f1,pearson,500,0.0263799623422,-0.0670241773547,0.122395900821,10000,1
+InternVL3.5-8B,evidence_restoration_gain,Full evidence restoration minus evidence-deleted yes margin,ecr,spearman,500,0.0288447777076,-0.0556480385352,0.113519729995,10000,1
+InternVL3.5-8B,evidence_restoration_gain,Full evidence restoration minus evidence-deleted yes margin,ecr,pearson,500,0.123821008979,0.0711446118403,0.171727374342,10000,1
+InternVL3.5-8B,evidence_restoration_gain,Full evidence restoration minus evidence-deleted yes margin,local_provenance_precision,spearman,500,0.0220873304656,-0.064370617307,0.107899627657,10000,1
+InternVL3.5-8B,evidence_restoration_gain,Full evidence restoration minus evidence-deleted yes margin,local_provenance_precision,pearson,500,0.0123690106072,-0.084059935434,0.116912822714,10000,1
+InternVL3.5-8B,evidence_restoration_gain,Full evidence restoration minus evidence-deleted yes margin,geo_f1,spearman,500,0.0327604567045,-0.054693132069,0.12164991022,10000,1
+InternVL3.5-8B,evidence_restoration_gain,Full evidence restoration minus evidence-deleted yes margin,geo_f1,pearson,500,0.0263799623422,-0.0676084498807,0.123679014112,10000,1
+InternVL3.5-8B,restoration_specific_gain,Evidence restoration minus matched-count random restoration,ecr,spearman,500,0.0348325292234,-0.0520438409682,0.121014327014,10000,1
+InternVL3.5-8B,restoration_specific_gain,Evidence restoration minus matched-count random restoration,ecr,pearson,500,0.117185611285,0.0678906216859,0.164448599332,10000,1
+InternVL3.5-8B,restoration_specific_gain,Evidence restoration minus matched-count random restoration,local_provenance_precision,spearman,500,0.0140675693283,-0.0734559970382,0.101098054357,10000,1
+InternVL3.5-8B,restoration_specific_gain,Evidence restoration minus matched-count random restoration,local_provenance_precision,pearson,500,-0.00412072633018,-0.103812946343,0.104763185218,10000,1
+InternVL3.5-8B,restoration_specific_gain,Evidence restoration minus matched-count random restoration,geo_f1,spearman,500,0.0232544593379,-0.0637896713607,0.111433947246,10000,1
+InternVL3.5-8B,restoration_specific_gain,Evidence restoration minus matched-count random restoration,geo_f1,pearson,500,0.00938309779587,-0.0828237256731,0.108356513591,10000,1

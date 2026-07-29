@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the accompanying paper."
+title: "Spatial-Provenance Audit for Visual Token Pruning"
+type: software
+version: 1.0.0
+date-released: 2026-07-29
+repository-code: "https://github.com/SouthWinter/spatial-provenance-audit"
+license: Apache-2.0
+authors:
+  - family-names: Liu
+    given-names: Feixiang
+  - family-names: Qiu
+    given-names: Qiang
+  - family-names: Zhang
+    given-names: Hao
+  - family-names: Wang
+    given-names: Xinyue

@@ -1,0 +1,13 @@
+model,method,n,auroc,delta_auroc_vs_full,default_accuracy,default_hfpr,full_dev_threshold,shared_accuracy,shared_hfpr,source
+Qwen3-VL-8B,Full,1000,0.855632,0.0,0.783,0.248,1.0625,0.812,0.132,runs/textocr_confirmation/qwen3_8b_full/probe_scores.jsonl
+Qwen3-VL-8B,Target (30%),1000,0.855498,0.0,0.786,0.24,1.0625,0.81,0.142,runs/textocr_confirmation/qwen3_8b_target_0p30/probe_scores.jsonl
+Qwen3-VL-8B,Random (30%),1000,0.77581,-0.07982199999999995,0.739,0.16,1.0625,0.757,0.072,runs/textocr_confirmation/qwen3_8b_random_0p30/probe_scores.jsonl
+Qwen3-VL-8B,Grid (30%),1000,0.755432,-0.10019999999999996,0.723,0.142,1.0625,0.723,0.08,runs/textocr_confirmation/qwen3_8b_grid_0p30/probe_scores.jsonl
+Qwen3-VL-8B,VisionZip (30%),1000,0.78773,-0.0679019999999999,0.748,0.198,1.0625,0.764,0.11,runs/textocr_confirmation/qwen3_8b_visionzip_0p30/probe_scores.jsonl
+LLaVA-1.5-7B,Full,1000,0.665908,0.0,0.625,0.316,0.0879511833190918,0.623,0.22,runs/textocr_confirmation/llava15_7b_full/probe_scores.jsonl
+LLaVA-1.5-7B,Protected (40%),1000,0.69369,0.027781999999999973,0.643,0.352,0.0879511833190918,0.653,0.224,runs/textocr_confirmation/llava15_7b_protected_0p40/probe_scores.jsonl
+LLaVA-1.5-7B,Random (40%),1000,0.711612,0.04570399999999997,0.669,0.256,0.0879511833190918,0.657,0.15,runs/textocr_confirmation/llava15_7b_random_0p40/probe_scores.jsonl
+LLaVA-1.5-7B,Target (40%),1000,0.713332,0.04742399999999991,0.624,0.574,0.0879511833190918,0.653,0.442,runs/textocr_confirmation/llava15_7b_target_0p40/probe_scores.jsonl
+LLaVA-1.5-7B,SCOPE (40%),1000,0.64365,-0.022258,0.586,0.562,0.0879511833190918,0.593,0.454,runs/textocr_confirmation/llava15_7b_scope_0p40/probe_scores.jsonl
+LLaVA-1.5-7B,AnchorPrune (40%),1000,0.641778,-0.024130000000000096,0.578,0.586,0.0879511833190918,0.596,0.474,runs/anchorprune_textocr/confirmation_llava15_anchorprune_0p40/probe_scores.jsonl
+LLaVA-1.5-7B,CoIn (40%),1000,0.664052,-0.0018560000000000798,0.579,0.674,0.0879511833190918,0.595,0.562,runs/textocr_confirmation/llava15_7b_coin_0p40/probe_scores.jsonl

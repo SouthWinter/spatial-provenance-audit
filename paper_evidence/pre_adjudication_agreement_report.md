@@ -1,0 +1,62 @@
+# Hard-Negative Independent Reannotation Agreement
+
+Agreement is measured on the frozen 100-row secondary sample before adjudication.
+
+- QC-decision agreement: 0.900
+- QC-decision Cohen's kappa: 0.445
+- Valid-vs-non-valid agreement: 0.900
+- Valid-vs-non-valid Cohen's kappa: 0.445
+- Exact agreement on all five core fields: 0.900
+- Rows requiring adjudication: 10
+
+## Full Metrics
+
+| field | metric | value |
+| --- | --- | --- |
+| human_source_text_visible | n | 100 |
+| human_source_text_visible | agreement | 0.900 |
+| human_source_text_visible | agreement_ci95_low | 0.826 |
+| human_source_text_visible | agreement_ci95_high | 0.945 |
+| human_source_text_visible | cohen_kappa | 0.445 |
+| human_source_text_visible | kappa_ci95_low | 0.115 |
+| human_source_text_visible | kappa_ci95_high | 0.710 |
+| human_target_text_visible_same_image | n | 100 |
+| human_target_text_visible_same_image | agreement | 0.900 |
+| human_target_text_visible_same_image | agreement_ci95_low | 0.826 |
+| human_target_text_visible_same_image | agreement_ci95_high | 0.945 |
+| human_target_text_visible_same_image | cohen_kappa | 0.445 |
+| human_target_text_visible_same_image | kappa_ci95_low | 0.115 |
+| human_target_text_visible_same_image | kappa_ci95_high | 0.710 |
+| target_absent_after_case_punct_normalization | n | 100 |
+| target_absent_after_case_punct_normalization | agreement | 0.900 |
+| target_absent_after_case_punct_normalization | agreement_ci95_low | 0.826 |
+| target_absent_after_case_punct_normalization | agreement_ci95_high | 0.945 |
+| target_absent_after_case_punct_normalization | cohen_kappa | 0.445 |
+| target_absent_after_case_punct_normalization | kappa_ci95_low | 0.115 |
+| target_absent_after_case_punct_normalization | kappa_ci95_high | 0.710 |
+| source_bbox_matches_source_text | n | 100 |
+| source_bbox_matches_source_text | agreement | 0.900 |
+| source_bbox_matches_source_text | agreement_ci95_low | 0.826 |
+| source_bbox_matches_source_text | agreement_ci95_high | 0.945 |
+| source_bbox_matches_source_text | cohen_kappa | 0.445 |
+| source_bbox_matches_source_text | kappa_ci95_low | 0.115 |
+| source_bbox_matches_source_text | kappa_ci95_high | 0.710 |
+| qc_decision | n | 100 |
+| qc_decision | agreement | 0.900 |
+| qc_decision | agreement_ci95_low | 0.826 |
+| qc_decision | agreement_ci95_high | 0.945 |
+| qc_decision | cohen_kappa | 0.445 |
+| qc_decision | kappa_ci95_low | 0.115 |
+| qc_decision | kappa_ci95_high | 0.710 |
+| validity_binary | n | 100 |
+| validity_binary | agreement | 0.900 |
+| validity_binary | agreement_ci95_low | 0.826 |
+| validity_binary | agreement_ci95_high | 0.945 |
+| validity_binary | cohen_kappa | 0.445 |
+| validity_binary | kappa_ci95_low | 0.115 |
+| validity_binary | kappa_ci95_high | 0.710 |
+| all_core_fields | n | 100 |
+| all_core_fields | exact_agreement | 0.900 |
+| all_core_fields | agreement_ci95_low | 0.826 |
+| all_core_fields | agreement_ci95_high | 0.945 |
+| all_core_fields | disagreement_rows | 10 |

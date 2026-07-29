@@ -1,0 +1,16 @@
+scope,label_type,samples,primary_present,secondary_present,both_present,presence_agreement,positive_jaccard,positive_f1
+all,answer_value,32,30,32,30,0.9375,0.9375,0.9677
+all,column_header,32,2,3,1,0.9062,0.25,0.4
+all,comparison_anchor,32,5,2,1,0.8438,0.1667,0.2857
+all,context,32,3,9,0,0.625,0.0,0.0
+all,field_label,32,6,6,4,0.875,0.5,0.6667
+all,row_header,32,1,6,1,0.8438,0.1667,0.2857
+DocVQA-lite,answer_value,16,14,16,14,0.875,0.875,0.9333
+DocVQA-lite,column_header,16,2,3,1,0.8125,0.25,0.4
+DocVQA-lite,comparison_anchor,16,5,2,1,0.6875,0.1667,0.2857
+DocVQA-lite,context,16,3,7,0,0.375,0.0,0.0
+DocVQA-lite,field_label,16,5,4,3,0.8125,0.5,0.6667
+DocVQA-lite,row_header,16,1,6,1,0.6875,0.1667,0.2857
+TextVQA-lite,answer_value,16,16,16,16,1.0,1.0,1.0
+TextVQA-lite,context,16,0,2,0,0.875,0.0,0.0
+TextVQA-lite,field_label,16,1,2,1,0.9375,0.5,0.6667

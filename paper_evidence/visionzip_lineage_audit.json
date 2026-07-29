@@ -1,0 +1,32 @@
+[
+  {
+    "model": "Qwen3-VL-8B",
+    "method": "VisionZip (30%), confirmation",
+    "n": 1000,
+    "mean_full_visual_tokens": 794.186,
+    "mean_output_visual_tokens": 238.698,
+    "mean_contextual_output_tokens": 37.488,
+    "all_samples_exhaustive_contextual_merge": true,
+    "output_budget_decomposition_matches": true,
+    "lineage_PosECR": 1.0,
+    "lineage_NegSRC": 1.0,
+    "anchor_PosECR": 0.8460646087052611,
+    "anchor_NegSRC": 0.8460646087052611,
+    "run_dir": "runs/textocr_confirmation/qwen3_8b_visionzip_0p30"
+  },
+  {
+    "model": "LLaVA-1.5-7B",
+    "method": "VisionZip (40%), confirmation",
+    "n": 1000,
+    "mean_full_visual_tokens": 576.0,
+    "mean_output_visual_tokens": 231.0,
+    "mean_contextual_output_tokens": 36.0,
+    "all_samples_exhaustive_contextual_merge": true,
+    "output_budget_decomposition_matches": true,
+    "lineage_PosECR": 1.0,
+    "lineage_NegSRC": 1.0,
+    "anchor_PosECR": 0.5625007653023698,
+    "anchor_NegSRC": 0.5625007653023698,
+    "run_dir": "runs/textocr_confirmation/llava15_7b_visionzip_0p40"
+  }
+]

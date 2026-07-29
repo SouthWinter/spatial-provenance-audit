@@ -1,0 +1,46 @@
+{
+  "protocol": "paired full-prefix versus 40% question-conditioned LLaVA Target pruning",
+  "bootstrap_samples": 20000,
+  "permutation_samples": 20000,
+  "seed": 20260721,
+  "tasks": [
+    {
+      "task": "TextVQA-lite",
+      "n": 500,
+      "metric": "textvqa_accuracy",
+      "full_score": 0.49500000000000005,
+      "pruned_score": 0.271,
+      "paired_delta": -0.224,
+      "bootstrap_95_ci": [
+        -0.2636,
+        -0.185
+      ],
+      "paired_sign_flip_p_value": 4.999750012499375e-05,
+      "wins": 15,
+      "losses": 141,
+      "ties": 344,
+      "mean_effective_keep_ratio": 0.4010416666666667,
+      "mean_target_text_token_count": 8.75,
+      "same_sample_set_as_qwen": true
+    },
+    {
+      "task": "DocVQA-lite",
+      "n": 500,
+      "metric": "anls",
+      "full_score": 0.25513637017702234,
+      "pruned_score": 0.13577206284892684,
+      "paired_delta": -0.11936430732809546,
+      "bootstrap_95_ci": [
+        -0.15015676670339795,
+        -0.08883964736765619
+      ],
+      "paired_sign_flip_p_value": 4.999750012499375e-05,
+      "wins": 16,
+      "losses": 96,
+      "ties": 388,
+      "mean_effective_keep_ratio": 0.4010416666666667,
+      "mean_target_text_token_count": 12.386,
+      "same_sample_set_as_qwen": true
+    }
+  ]
+}

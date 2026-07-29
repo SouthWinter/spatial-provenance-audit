@@ -1,0 +1,3 @@
+comparison,metric,n_images,n_random_seeds,difference,ci_low,ci_high,bootstrap,draws
+"Qwen Target (30%) - Random (30%), locked confirmation",accuracy,500,6,0.052833333333333336,0.03283333333333333,0.073,two-stage seed-and-image,20000
+"Qwen Target (30%) - Random (30%), locked confirmation",PosECR,500,6,0.3254744455457446,0.28599784225134,0.3645509141070481,two-stage seed-and-image,20000

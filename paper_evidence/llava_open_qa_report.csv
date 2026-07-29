@@ -1,0 +1,3 @@
+task,n,metric,full_score,pruned_score,paired_delta,ci_low,ci_high,paired_sign_flip_p_value,wins,losses,ties,mean_effective_keep_ratio,mean_target_text_token_count,same_sample_set_as_qwen
+TextVQA-lite,500,textvqa_accuracy,0.49500000000000005,0.271,-0.224,-0.2636,-0.185,4.999750012499375e-05,15,141,344,0.4010416666666667,8.75,True
+DocVQA-lite,500,anls,0.25513637017702234,0.13577206284892684,-0.11936430732809546,-0.15015676670339795,-0.08883964736765619,4.999750012499375e-05,16,96,388,0.4010416666666667,12.386,True

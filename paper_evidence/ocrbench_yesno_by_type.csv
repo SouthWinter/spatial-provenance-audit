@@ -1,0 +1,191 @@
+model,method,ratio,question_type,n,acc,hFPR,pos_acc,neg_acc,yes_rate
+Qwen3-VL-8B,direct,full,Artistic Text Recognition,20,0.95,0.0,0.9,1.0,0.45
+Qwen3-VL-8B,direct,full,Digit String Recognition,20,1.0,0.0,1.0,1.0,0.5
+Qwen3-VL-8B,direct,full,Doc-oriented VQA,20,0.95,0.1,1.0,0.9,0.55
+Qwen3-VL-8B,direct,full,Handwriting Recognition,20,1.0,0.0,1.0,1.0,0.5
+Qwen3-VL-8B,direct,full,Handwritten Mathematical Expression Recognition,20,1.0,0.0,1.0,1.0,0.5
+Qwen3-VL-8B,direct,full,Irregular Text Recognition,20,1.0,0.0,1.0,1.0,0.5
+Qwen3-VL-8B,direct,full,Key Information Extraction,20,0.9,0.1,0.9,0.9,0.5
+Qwen3-VL-8B,direct,full,Non-Semantic Text Recognition,20,1.0,0.0,1.0,1.0,0.5
+Qwen3-VL-8B,direct,full,Regular Text Recognition,20,0.95,0.0,0.9,1.0,0.45
+Qwen3-VL-8B,direct,full,Scene Text-centric VQA,20,1.0,0.0,1.0,1.0,0.5
+Qwen3-VL-8B,target_embed_topk,0.2,Artistic Text Recognition,20,1.0,0.0,1.0,1.0,0.5
+Qwen3-VL-8B,target_embed_topk,0.2,Digit String Recognition,20,0.8,0.0,0.6,1.0,0.3
+Qwen3-VL-8B,target_embed_topk,0.2,Doc-oriented VQA,20,0.85,0.3,1.0,0.7,0.65
+Qwen3-VL-8B,target_embed_topk,0.2,Handwriting Recognition,20,1.0,0.0,1.0,1.0,0.5
+Qwen3-VL-8B,target_embed_topk,0.2,Handwritten Mathematical Expression Recognition,20,0.75,0.0,0.5,1.0,0.25
+Qwen3-VL-8B,target_embed_topk,0.2,Irregular Text Recognition,20,0.85,0.3,1.0,0.7,0.65
+Qwen3-VL-8B,target_embed_topk,0.2,Key Information Extraction,20,0.85,0.2,0.9,0.8,0.55
+Qwen3-VL-8B,target_embed_topk,0.2,Non-Semantic Text Recognition,20,0.8,0.0,0.6,1.0,0.3
+Qwen3-VL-8B,target_embed_topk,0.2,Regular Text Recognition,20,0.8,0.1,0.7,0.9,0.4
+Qwen3-VL-8B,target_embed_topk,0.2,Scene Text-centric VQA,20,0.95,0.1,1.0,0.9,0.55
+Qwen3-VL-8B,target_embed_topk,0.3,Artistic Text Recognition,20,1.0,0.0,1.0,1.0,0.5
+Qwen3-VL-8B,target_embed_topk,0.3,Digit String Recognition,20,0.85,0.0,0.7,1.0,0.35
+Qwen3-VL-8B,target_embed_topk,0.3,Doc-oriented VQA,20,0.9,0.2,1.0,0.8,0.6
+Qwen3-VL-8B,target_embed_topk,0.3,Handwriting Recognition,20,1.0,0.0,1.0,1.0,0.5
+Qwen3-VL-8B,target_embed_topk,0.3,Handwritten Mathematical Expression Recognition,20,0.75,0.0,0.5,1.0,0.25
+Qwen3-VL-8B,target_embed_topk,0.3,Irregular Text Recognition,20,0.9,0.2,1.0,0.8,0.6
+Qwen3-VL-8B,target_embed_topk,0.3,Key Information Extraction,20,0.75,0.3,0.8,0.7,0.55
+Qwen3-VL-8B,target_embed_topk,0.3,Non-Semantic Text Recognition,20,0.95,0.0,0.9,1.0,0.45
+Qwen3-VL-8B,target_embed_topk,0.3,Regular Text Recognition,20,0.85,0.0,0.7,1.0,0.35
+Qwen3-VL-8B,target_embed_topk,0.3,Scene Text-centric VQA,20,0.95,0.1,1.0,0.9,0.55
+Qwen3-VL-8B,target_embed_grid_topk,0.3,Artistic Text Recognition,20,1.0,0.0,1.0,1.0,0.5
+Qwen3-VL-8B,target_embed_grid_topk,0.3,Digit String Recognition,20,0.85,0.0,0.7,1.0,0.35
+Qwen3-VL-8B,target_embed_grid_topk,0.3,Doc-oriented VQA,20,0.9,0.2,1.0,0.8,0.6
+Qwen3-VL-8B,target_embed_grid_topk,0.3,Handwriting Recognition,20,1.0,0.0,1.0,1.0,0.5
+Qwen3-VL-8B,target_embed_grid_topk,0.3,Handwritten Mathematical Expression Recognition,20,0.8,0.0,0.6,1.0,0.3
+Qwen3-VL-8B,target_embed_grid_topk,0.3,Irregular Text Recognition,20,0.9,0.1,0.9,0.9,0.5
+Qwen3-VL-8B,target_embed_grid_topk,0.3,Key Information Extraction,20,0.85,0.2,0.9,0.8,0.55
+Qwen3-VL-8B,target_embed_grid_topk,0.3,Non-Semantic Text Recognition,20,0.95,0.0,0.9,1.0,0.45
+Qwen3-VL-8B,target_embed_grid_topk,0.3,Regular Text Recognition,20,0.95,0.0,0.9,1.0,0.45
+Qwen3-VL-8B,target_embed_grid_topk,0.3,Scene Text-centric VQA,20,1.0,0.0,1.0,1.0,0.5
+Qwen3-VL-8B,target_embed_grid_topk,0.4,Artistic Text Recognition,20,0.95,0.0,0.9,1.0,0.45
+Qwen3-VL-8B,target_embed_grid_topk,0.4,Digit String Recognition,20,0.85,0.0,0.7,1.0,0.35
+Qwen3-VL-8B,target_embed_grid_topk,0.4,Doc-oriented VQA,20,0.9,0.2,1.0,0.8,0.6
+Qwen3-VL-8B,target_embed_grid_topk,0.4,Handwriting Recognition,20,1.0,0.0,1.0,1.0,0.5
+Qwen3-VL-8B,target_embed_grid_topk,0.4,Handwritten Mathematical Expression Recognition,20,0.9,0.0,0.8,1.0,0.4
+Qwen3-VL-8B,target_embed_grid_topk,0.4,Irregular Text Recognition,20,0.9,0.1,0.9,0.9,0.5
+Qwen3-VL-8B,target_embed_grid_topk,0.4,Key Information Extraction,20,0.7,0.3,0.7,0.7,0.5
+Qwen3-VL-8B,target_embed_grid_topk,0.4,Non-Semantic Text Recognition,20,0.95,0.0,0.9,1.0,0.45
+Qwen3-VL-8B,target_embed_grid_topk,0.4,Regular Text Recognition,20,0.95,0.0,0.9,1.0,0.45
+Qwen3-VL-8B,target_embed_grid_topk,0.4,Scene Text-centric VQA,20,0.95,0.1,1.0,0.9,0.55
+Qwen3-VL-8B,target_embed_grid_topk,0.5,Artistic Text Recognition,20,0.95,0.0,0.9,1.0,0.45
+Qwen3-VL-8B,target_embed_grid_topk,0.5,Digit String Recognition,20,0.95,0.0,0.9,1.0,0.45
+Qwen3-VL-8B,target_embed_grid_topk,0.5,Doc-oriented VQA,20,0.95,0.1,1.0,0.9,0.55
+Qwen3-VL-8B,target_embed_grid_topk,0.5,Handwriting Recognition,20,1.0,0.0,1.0,1.0,0.5
+Qwen3-VL-8B,target_embed_grid_topk,0.5,Handwritten Mathematical Expression Recognition,20,0.85,0.0,0.7,1.0,0.35
+Qwen3-VL-8B,target_embed_grid_topk,0.5,Irregular Text Recognition,20,0.9,0.1,0.9,0.9,0.5
+Qwen3-VL-8B,target_embed_grid_topk,0.5,Key Information Extraction,20,0.75,0.2,0.7,0.8,0.45
+Qwen3-VL-8B,target_embed_grid_topk,0.5,Non-Semantic Text Recognition,20,0.95,0.0,0.9,1.0,0.45
+Qwen3-VL-8B,target_embed_grid_topk,0.5,Regular Text Recognition,20,0.95,0.0,0.9,1.0,0.45
+Qwen3-VL-8B,target_embed_grid_topk,0.5,Scene Text-centric VQA,20,0.95,0.1,1.0,0.9,0.55
+Qwen3-VL-8B,grid,0.3,Artistic Text Recognition,20,0.95,0.0,0.9,1.0,0.45
+Qwen3-VL-8B,grid,0.3,Digit String Recognition,20,1.0,0.0,1.0,1.0,0.5
+Qwen3-VL-8B,grid,0.3,Doc-oriented VQA,20,0.8,0.3,0.9,0.7,0.6
+Qwen3-VL-8B,grid,0.3,Handwriting Recognition,20,1.0,0.0,1.0,1.0,0.5
+Qwen3-VL-8B,grid,0.3,Handwritten Mathematical Expression Recognition,20,0.8,0.0,0.6,1.0,0.3
+Qwen3-VL-8B,grid,0.3,Irregular Text Recognition,20,0.9,0.1,0.9,0.9,0.5
+Qwen3-VL-8B,grid,0.3,Key Information Extraction,20,0.7,0.1,0.5,0.9,0.3
+Qwen3-VL-8B,grid,0.3,Non-Semantic Text Recognition,20,0.95,0.0,0.9,1.0,0.45
+Qwen3-VL-8B,grid,0.3,Regular Text Recognition,20,0.95,0.0,0.9,1.0,0.45
+Qwen3-VL-8B,grid,0.3,Scene Text-centric VQA,20,0.85,0.0,0.7,1.0,0.35
+Qwen3-VL-8B,random,0.3,Artistic Text Recognition,20,0.95,0.0,0.9,1.0,0.45
+Qwen3-VL-8B,random,0.3,Digit String Recognition,20,1.0,0.0,1.0,1.0,0.5
+Qwen3-VL-8B,random,0.3,Doc-oriented VQA,20,0.8,0.3,0.9,0.7,0.6
+Qwen3-VL-8B,random,0.3,Handwriting Recognition,20,1.0,0.0,1.0,1.0,0.5
+Qwen3-VL-8B,random,0.3,Handwritten Mathematical Expression Recognition,20,0.8,0.0,0.6,1.0,0.3
+Qwen3-VL-8B,random,0.3,Irregular Text Recognition,20,0.9,0.1,0.9,0.9,0.5
+Qwen3-VL-8B,random,0.3,Key Information Extraction,20,0.75,0.2,0.7,0.8,0.45
+Qwen3-VL-8B,random,0.3,Non-Semantic Text Recognition,20,1.0,0.0,1.0,1.0,0.5
+Qwen3-VL-8B,random,0.3,Regular Text Recognition,20,0.95,0.0,0.9,1.0,0.45
+Qwen3-VL-8B,random,0.3,Scene Text-centric VQA,20,0.95,0.0,0.9,1.0,0.45
+LLaVA-1.5-7B,direct,full,Artistic Text Recognition,20,0.6,0.6,0.8,0.4,0.7
+LLaVA-1.5-7B,direct,full,Digit String Recognition,20,0.55,0.8,0.9,0.2,0.85
+LLaVA-1.5-7B,direct,full,Doc-oriented VQA,20,0.55,0.9,1.0,0.1,0.95
+LLaVA-1.5-7B,direct,full,Handwriting Recognition,20,0.55,0.8,0.9,0.2,0.85
+LLaVA-1.5-7B,direct,full,Handwritten Mathematical Expression Recognition,20,0.45,1.0,0.9,0.0,0.95
+LLaVA-1.5-7B,direct,full,Irregular Text Recognition,20,0.8,0.4,1.0,0.6,0.7
+LLaVA-1.5-7B,direct,full,Key Information Extraction,20,0.5,0.7,0.7,0.3,0.7
+LLaVA-1.5-7B,direct,full,Non-Semantic Text Recognition,20,0.6,0.8,1.0,0.2,0.9
+LLaVA-1.5-7B,direct,full,Regular Text Recognition,20,0.8,0.4,1.0,0.6,0.7
+LLaVA-1.5-7B,direct,full,Scene Text-centric VQA,20,0.95,0.1,1.0,0.9,0.55
+LLaVA-1.5-7B,embed_protected_topk,0.4,Artistic Text Recognition,20,0.75,0.5,1.0,0.5,0.75
+LLaVA-1.5-7B,embed_protected_topk,0.4,Digit String Recognition,20,0.5,0.8,0.8,0.2,0.8
+LLaVA-1.5-7B,embed_protected_topk,0.4,Doc-oriented VQA,20,0.55,0.9,1.0,0.1,0.95
+LLaVA-1.5-7B,embed_protected_topk,0.4,Handwriting Recognition,20,0.6,0.7,0.9,0.3,0.8
+LLaVA-1.5-7B,embed_protected_topk,0.4,Handwritten Mathematical Expression Recognition,20,0.5,1.0,1.0,0.0,1.0
+LLaVA-1.5-7B,embed_protected_topk,0.4,Irregular Text Recognition,20,0.75,0.5,1.0,0.5,0.75
+LLaVA-1.5-7B,embed_protected_topk,0.4,Key Information Extraction,20,0.6,0.7,0.9,0.3,0.8
+LLaVA-1.5-7B,embed_protected_topk,0.4,Non-Semantic Text Recognition,20,0.6,0.8,1.0,0.2,0.9
+LLaVA-1.5-7B,embed_protected_topk,0.4,Regular Text Recognition,20,0.55,0.5,0.6,0.5,0.55
+LLaVA-1.5-7B,embed_protected_topk,0.4,Scene Text-centric VQA,20,0.8,0.4,1.0,0.6,0.7
+LLaVA-1.5-7B,grid,0.4,Artistic Text Recognition,20,0.7,0.5,0.9,0.5,0.7
+LLaVA-1.5-7B,grid,0.4,Digit String Recognition,20,0.5,0.8,0.8,0.2,0.8
+LLaVA-1.5-7B,grid,0.4,Doc-oriented VQA,20,0.55,0.8,0.9,0.2,0.85
+LLaVA-1.5-7B,grid,0.4,Handwriting Recognition,20,0.7,0.5,0.9,0.5,0.7
+LLaVA-1.5-7B,grid,0.4,Handwritten Mathematical Expression Recognition,20,0.5,1.0,1.0,0.0,1.0
+LLaVA-1.5-7B,grid,0.4,Irregular Text Recognition,20,0.8,0.4,1.0,0.6,0.7
+LLaVA-1.5-7B,grid,0.4,Key Information Extraction,20,0.55,0.7,0.8,0.3,0.75
+LLaVA-1.5-7B,grid,0.4,Non-Semantic Text Recognition,20,0.7,0.6,1.0,0.4,0.8
+LLaVA-1.5-7B,grid,0.4,Regular Text Recognition,20,0.6,0.5,0.7,0.5,0.6
+LLaVA-1.5-7B,grid,0.4,Scene Text-centric VQA,20,0.8,0.4,1.0,0.6,0.7
+LLaVA-1.5-7B,VisionZip,0.4,Artistic Text Recognition,20,0.65,0.7,1.0,0.3,0.85
+LLaVA-1.5-7B,VisionZip,0.4,Digit String Recognition,20,0.5,0.8,0.8,0.2,0.8
+LLaVA-1.5-7B,VisionZip,0.4,Doc-oriented VQA,20,0.5,0.9,0.9,0.1,0.9
+LLaVA-1.5-7B,VisionZip,0.4,Handwriting Recognition,20,0.65,0.7,1.0,0.3,0.85
+LLaVA-1.5-7B,VisionZip,0.4,Handwritten Mathematical Expression Recognition,20,0.5,1.0,1.0,0.0,1.0
+LLaVA-1.5-7B,VisionZip,0.4,Irregular Text Recognition,20,0.7,0.6,1.0,0.4,0.8
+LLaVA-1.5-7B,VisionZip,0.4,Key Information Extraction,20,0.6,0.6,0.8,0.4,0.7
+LLaVA-1.5-7B,VisionZip,0.4,Non-Semantic Text Recognition,20,0.55,0.9,1.0,0.1,0.95
+LLaVA-1.5-7B,VisionZip,0.4,Regular Text Recognition,20,0.6,0.4,0.6,0.6,0.5
+LLaVA-1.5-7B,VisionZip,0.4,Scene Text-centric VQA,20,0.8,0.4,1.0,0.6,0.7
+LLaVA-1.5-7B,FastV,0.4,Artistic Text Recognition,20,0.5,0.0,0.0,1.0,0.0
+LLaVA-1.5-7B,FastV,0.4,Digit String Recognition,20,0.5,0.0,0.0,1.0,0.0
+LLaVA-1.5-7B,FastV,0.4,Doc-oriented VQA,20,0.5,0.0,0.0,1.0,0.0
+LLaVA-1.5-7B,FastV,0.4,Handwriting Recognition,20,0.5,0.0,0.0,1.0,0.0
+LLaVA-1.5-7B,FastV,0.4,Handwritten Mathematical Expression Recognition,20,0.5,0.0,0.0,1.0,0.0
+LLaVA-1.5-7B,FastV,0.4,Irregular Text Recognition,20,0.5,0.0,0.0,1.0,0.0
+LLaVA-1.5-7B,FastV,0.4,Key Information Extraction,20,0.5,0.0,0.0,1.0,0.0
+LLaVA-1.5-7B,FastV,0.4,Non-Semantic Text Recognition,20,0.5,0.0,0.0,1.0,0.0
+LLaVA-1.5-7B,FastV,0.4,Regular Text Recognition,20,0.5,0.0,0.0,1.0,0.0
+LLaVA-1.5-7B,FastV,0.4,Scene Text-centric VQA,20,0.5,0.0,0.0,1.0,0.0
+InternVL3.5-8B,direct,full,Artistic Text Recognition,20,0.9,0.2,1.0,0.8,0.6
+InternVL3.5-8B,direct,full,Digit String Recognition,20,0.95,0.1,1.0,0.9,0.55
+InternVL3.5-8B,direct,full,Doc-oriented VQA,20,1.0,0.0,1.0,1.0,0.5
+InternVL3.5-8B,direct,full,Handwriting Recognition,20,0.85,0.3,1.0,0.7,0.65
+InternVL3.5-8B,direct,full,Handwritten Mathematical Expression Recognition,20,0.95,0.1,1.0,0.9,0.55
+InternVL3.5-8B,direct,full,Irregular Text Recognition,20,0.95,0.0,0.9,1.0,0.45
+InternVL3.5-8B,direct,full,Key Information Extraction,20,0.9,0.2,1.0,0.8,0.6
+InternVL3.5-8B,direct,full,Non-Semantic Text Recognition,20,1.0,0.0,1.0,1.0,0.5
+InternVL3.5-8B,direct,full,Regular Text Recognition,20,1.0,0.0,1.0,1.0,0.5
+InternVL3.5-8B,direct,full,Scene Text-centric VQA,20,0.85,0.3,1.0,0.7,0.65
+InternVL3.5-8B,target_embed_topk,0.5,Artistic Text Recognition,20,0.85,0.3,1.0,0.7,0.65
+InternVL3.5-8B,target_embed_topk,0.5,Digit String Recognition,20,0.95,0.0,0.9,1.0,0.45
+InternVL3.5-8B,target_embed_topk,0.5,Doc-oriented VQA,20,0.8,0.3,0.9,0.7,0.6
+InternVL3.5-8B,target_embed_topk,0.5,Handwriting Recognition,20,0.85,0.3,1.0,0.7,0.65
+InternVL3.5-8B,target_embed_topk,0.5,Handwritten Mathematical Expression Recognition,20,1.0,0.0,1.0,1.0,0.5
+InternVL3.5-8B,target_embed_topk,0.5,Irregular Text Recognition,20,0.9,0.1,0.9,0.9,0.5
+InternVL3.5-8B,target_embed_topk,0.5,Key Information Extraction,20,0.8,0.3,0.9,0.7,0.6
+InternVL3.5-8B,target_embed_topk,0.5,Non-Semantic Text Recognition,20,0.95,0.1,1.0,0.9,0.55
+InternVL3.5-8B,target_embed_topk,0.5,Regular Text Recognition,20,1.0,0.0,1.0,1.0,0.5
+InternVL3.5-8B,target_embed_topk,0.5,Scene Text-centric VQA,20,0.9,0.2,1.0,0.8,0.6
+InternVL3.5-8B,target_embed_grid_topk,0.5,Artistic Text Recognition,20,0.9,0.2,1.0,0.8,0.6
+InternVL3.5-8B,target_embed_grid_topk,0.5,Digit String Recognition,20,0.95,0.0,0.9,1.0,0.45
+InternVL3.5-8B,target_embed_grid_topk,0.5,Doc-oriented VQA,20,0.9,0.1,0.9,0.9,0.5
+InternVL3.5-8B,target_embed_grid_topk,0.5,Handwriting Recognition,20,0.85,0.3,1.0,0.7,0.65
+InternVL3.5-8B,target_embed_grid_topk,0.5,Handwritten Mathematical Expression Recognition,20,1.0,0.0,1.0,1.0,0.5
+InternVL3.5-8B,target_embed_grid_topk,0.5,Irregular Text Recognition,20,0.9,0.1,0.9,0.9,0.5
+InternVL3.5-8B,target_embed_grid_topk,0.5,Key Information Extraction,20,0.85,0.3,1.0,0.7,0.65
+InternVL3.5-8B,target_embed_grid_topk,0.5,Non-Semantic Text Recognition,20,1.0,0.0,1.0,1.0,0.5
+InternVL3.5-8B,target_embed_grid_topk,0.5,Regular Text Recognition,20,1.0,0.0,1.0,1.0,0.5
+InternVL3.5-8B,target_embed_grid_topk,0.5,Scene Text-centric VQA,20,0.9,0.2,1.0,0.8,0.6
+InternVL3.5-8B,target_embed_grid_topk,0.6,Artistic Text Recognition,20,0.9,0.1,0.9,0.9,0.5
+InternVL3.5-8B,target_embed_grid_topk,0.6,Digit String Recognition,20,0.95,0.0,0.9,1.0,0.45
+InternVL3.5-8B,target_embed_grid_topk,0.6,Doc-oriented VQA,20,0.9,0.0,0.8,1.0,0.4
+InternVL3.5-8B,target_embed_grid_topk,0.6,Handwriting Recognition,20,0.85,0.3,1.0,0.7,0.65
+InternVL3.5-8B,target_embed_grid_topk,0.6,Handwritten Mathematical Expression Recognition,20,1.0,0.0,1.0,1.0,0.5
+InternVL3.5-8B,target_embed_grid_topk,0.6,Irregular Text Recognition,20,0.95,0.0,0.9,1.0,0.45
+InternVL3.5-8B,target_embed_grid_topk,0.6,Key Information Extraction,20,0.85,0.2,0.9,0.8,0.55
+InternVL3.5-8B,target_embed_grid_topk,0.6,Non-Semantic Text Recognition,20,1.0,0.0,1.0,1.0,0.5
+InternVL3.5-8B,target_embed_grid_topk,0.6,Regular Text Recognition,20,1.0,0.0,1.0,1.0,0.5
+InternVL3.5-8B,target_embed_grid_topk,0.6,Scene Text-centric VQA,20,0.85,0.3,1.0,0.7,0.65
+InternVL3.5-8B,embed_topk,0.5,Artistic Text Recognition,20,0.85,0.3,1.0,0.7,0.65
+InternVL3.5-8B,embed_topk,0.5,Digit String Recognition,20,0.9,0.1,0.9,0.9,0.5
+InternVL3.5-8B,embed_topk,0.5,Doc-oriented VQA,20,0.9,0.1,0.9,0.9,0.5
+InternVL3.5-8B,embed_topk,0.5,Handwriting Recognition,20,0.65,0.7,1.0,0.3,0.85
+InternVL3.5-8B,embed_topk,0.5,Handwritten Mathematical Expression Recognition,20,0.95,0.1,1.0,0.9,0.55
+InternVL3.5-8B,embed_topk,0.5,Irregular Text Recognition,20,0.75,0.3,0.8,0.7,0.55
+InternVL3.5-8B,embed_topk,0.5,Key Information Extraction,20,0.85,0.3,1.0,0.7,0.65
+InternVL3.5-8B,embed_topk,0.5,Non-Semantic Text Recognition,20,0.95,0.1,1.0,0.9,0.55
+InternVL3.5-8B,embed_topk,0.5,Regular Text Recognition,20,0.7,0.1,0.5,0.9,0.3
+InternVL3.5-8B,embed_topk,0.5,Scene Text-centric VQA,20,0.65,0.5,0.8,0.5,0.65
+InternVL3.5-8B,grid,0.5,Artistic Text Recognition,20,0.9,0.1,0.9,0.9,0.5
+InternVL3.5-8B,grid,0.5,Digit String Recognition,20,0.95,0.0,0.9,1.0,0.45
+InternVL3.5-8B,grid,0.5,Doc-oriented VQA,20,0.85,0.2,0.9,0.8,0.55
+InternVL3.5-8B,grid,0.5,Handwriting Recognition,20,0.95,0.1,1.0,0.9,0.55
+InternVL3.5-8B,grid,0.5,Handwritten Mathematical Expression Recognition,20,1.0,0.0,1.0,1.0,0.5
+InternVL3.5-8B,grid,0.5,Irregular Text Recognition,20,0.9,0.1,0.9,0.9,0.5
+InternVL3.5-8B,grid,0.5,Key Information Extraction,20,0.8,0.3,0.9,0.7,0.6
+InternVL3.5-8B,grid,0.5,Non-Semantic Text Recognition,20,0.95,0.1,1.0,0.9,0.55
+InternVL3.5-8B,grid,0.5,Regular Text Recognition,20,1.0,0.0,1.0,1.0,0.5
+InternVL3.5-8B,grid,0.5,Scene Text-centric VQA,20,0.85,0.3,1.0,0.7,0.65

@@ -1,0 +1,52 @@
+model,method,scope,negative_n,false_positives,hFPR,hFPR_ci95_low,hFPR_ci95_high,delta_hFPR_vs_all,NegSRC,internvl_threshold
+Qwen3-VL-8B,Full,all_development_negatives,500,118,0.236000,0.200881,0.275144,0.000000,1.000000,
+Qwen3-VL-8B,Full,target_absence_confirmed,486,117,0.240741,0.204859,0.280689,0.004741,1.000000,
+Qwen3-VL-8B,Full,strict_valid_near_miss,449,112,0.249443,0.211660,0.291478,0.013443,1.000000,
+Qwen3-VL-8B,Target (30%),all_development_negatives,500,111,0.222000,0.187769,0.260470,0.000000,0.557915,
+Qwen3-VL-8B,Target (30%),target_absence_confirmed,486,108,0.222222,0.187520,0.261281,0.000222,0.560611,
+Qwen3-VL-8B,Target (30%),strict_valid_near_miss,449,102,0.227171,0.190825,0.268147,0.005171,0.567426,
+Qwen3-VL-8B,Random (30%),all_development_negatives,500,92,0.184000,0.152489,0.220329,0.000000,0.311816,
+Qwen3-VL-8B,Random (30%),target_absence_confirmed,486,88,0.181070,0.149379,0.217764,-0.002930,0.306965,
+Qwen3-VL-8B,Random (30%),strict_valid_near_miss,449,84,0.187082,0.153721,0.225753,0.003082,0.307756,
+Qwen3-VL-8B,Grid (30%),all_development_negatives,500,82,0.164000,0.134129,0.198995,0.000000,0.296593,
+Qwen3-VL-8B,Grid (30%),target_absence_confirmed,486,81,0.166667,0.136174,0.202387,0.002667,0.293599,
+Qwen3-VL-8B,Grid (30%),strict_valid_near_miss,449,79,0.175947,0.143517,0.213874,0.011947,0.291151,
+Qwen3-VL-8B,VisionZip (30%),all_development_negatives,500,92,0.184000,0.152489,0.220329,0.000000,1.000000,
+Qwen3-VL-8B,VisionZip (30%),target_absence_confirmed,486,90,0.185185,0.153166,0.222142,0.001185,1.000000,
+Qwen3-VL-8B,VisionZip (30%),strict_valid_near_miss,449,86,0.191537,0.157816,0.230491,0.007537,1.000000,
+LLaVA-1.5-7B,Full,all_development_negatives,500,152,0.304000,0.265302,0.345687,0.000000,1.000000,
+LLaVA-1.5-7B,Full,target_absence_confirmed,486,144,0.296296,0.257425,0.338362,-0.007704,1.000000,
+LLaVA-1.5-7B,Full,strict_valid_near_miss,449,131,0.291759,0.251621,0.335431,-0.012241,1.000000,
+LLaVA-1.5-7B,Protected (40%),all_development_negatives,500,149,0.298000,0.259573,0.339507,0.000000,1.000000,
+LLaVA-1.5-7B,Protected (40%),target_absence_confirmed,486,142,0.292181,0.253505,0.334116,-0.005819,1.000000,
+LLaVA-1.5-7B,Protected (40%),strict_valid_near_miss,449,130,0.289532,0.249507,0.333129,-0.008468,1.000000,
+LLaVA-1.5-7B,Random (40%),all_development_negatives,500,128,0.256000,0.219708,0.296013,0.000000,0.436531,
+LLaVA-1.5-7B,Random (40%),target_absence_confirmed,486,122,0.251029,0.214533,0.291429,-0.004971,0.434169,
+LLaVA-1.5-7B,Random (40%),strict_valid_near_miss,449,110,0.244989,0.207481,0.286823,-0.011011,0.439889,
+LLaVA-1.5-7B,Target (40%),all_development_negatives,500,158,0.316000,0.276784,0.358022,0.000000,0.393566,
+LLaVA-1.5-7B,Target (40%),target_absence_confirmed,486,151,0.310700,0.271175,0.353193,-0.005300,0.390642,
+LLaVA-1.5-7B,Target (40%),strict_valid_near_miss,449,140,0.311804,0.270706,0.356095,-0.004196,0.396048,
+LLaVA-1.5-7B,SCOPE (40%),all_development_negatives,500,254,0.508000,0.464286,0.551592,0.000000,0.641972,
+LLaVA-1.5-7B,SCOPE (40%),target_absence_confirmed,486,244,0.502058,0.457764,0.546319,-0.005942,0.643810,
+LLaVA-1.5-7B,SCOPE (40%),strict_valid_near_miss,449,225,0.501114,0.455053,0.547156,-0.006886,0.640768,
+LLaVA-1.5-7B,AnchorPrune (40%),all_development_negatives,500,285,0.570000,0.526234,0.612698,0.000000,0.646202,
+LLaVA-1.5-7B,AnchorPrune (40%),target_absence_confirmed,486,275,0.565844,0.521432,0.609223,-0.004156,0.644630,
+LLaVA-1.5-7B,AnchorPrune (40%),strict_valid_near_miss,449,254,0.565702,0.519488,0.610800,-0.004298,0.644025,
+LLaVA-1.5-7B,CoIn (40%),all_development_negatives,500,316,0.632000,0.588872,0.673115,0.000000,0.686148,
+LLaVA-1.5-7B,CoIn (40%),target_absence_confirmed,486,306,0.629630,0.585837,0.671389,-0.002370,0.688525,
+LLaVA-1.5-7B,CoIn (40%),strict_valid_near_miss,449,280,0.623608,0.577925,0.667194,-0.008392,0.689091,
+LLaVA-1.5-7B,VisionZip (40%),all_development_negatives,500,325,0.650000,0.607193,0.690520,0.000000,1.000000,
+LLaVA-1.5-7B,VisionZip (40%),target_absence_confirmed,486,315,0.648148,0.604680,0.689292,-0.001852,1.000000,
+LLaVA-1.5-7B,VisionZip (40%),strict_valid_near_miss,449,293,0.652561,0.607392,0.695142,0.002561,1.000000,
+InternVL3.5-8B,Full,all_development_negatives,500,141,0.282000,0.244336,0.322988,0.000000,1.000000,2.042599201202
+InternVL3.5-8B,Full,target_absence_confirmed,486,139,0.286008,0.247633,0.327740,0.004008,1.000000,2.042599201202
+InternVL3.5-8B,Full,strict_valid_near_miss,449,127,0.282851,0.243170,0.326216,0.000851,1.000000,2.042599201202
+InternVL3.5-8B,Soft evidence (50%),all_development_negatives,500,260,0.520000,0.476223,0.563472,0.000000,0.897859,2.042599201202
+InternVL3.5-8B,Soft evidence (50%),target_absence_confirmed,486,254,0.522634,0.478223,0.566689,0.002634,0.903516,2.042599201202
+InternVL3.5-8B,Soft evidence (50%),strict_valid_near_miss,449,237,0.527840,0.481623,0.573584,0.007840,0.905930,2.042599201202
+InternVL3.5-8B,Random (50%),all_development_negatives,500,241,0.482000,0.438507,0.525768,0.000000,0.751447,2.042599201202
+InternVL3.5-8B,Random (50%),target_absence_confirmed,486,237,0.487654,0.443486,0.532016,0.005654,0.751582,2.042599201202
+InternVL3.5-8B,Random (50%),strict_valid_near_miss,449,221,0.492205,0.446225,0.538317,0.010205,0.746206,2.042599201202
+InternVL3.5-8B,Grid (50%),all_development_negatives,500,231,0.462000,0.418756,0.505823,0.000000,0.694167,2.042599201202
+InternVL3.5-8B,Grid (50%),target_absence_confirmed,486,228,0.469136,0.425183,0.513572,0.007136,0.696251,2.042599201202
+InternVL3.5-8B,Grid (50%),strict_valid_near_miss,449,210,0.467706,0.422024,0.513936,0.005706,0.697841,2.042599201202

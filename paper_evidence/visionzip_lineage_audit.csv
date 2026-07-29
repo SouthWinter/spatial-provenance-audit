@@ -1,0 +1,3 @@
+model,method,n,mean_full_visual_tokens,mean_output_visual_tokens,mean_contextual_output_tokens,all_samples_exhaustive_contextual_merge,output_budget_decomposition_matches,lineage_PosECR,lineage_NegSRC,anchor_PosECR,anchor_NegSRC,run_dir
+Qwen3-VL-8B,"VisionZip (30%), confirmation",1000,794.186,238.698,37.488,True,True,1.0,1.0,0.8460646087052611,0.8460646087052611,runs/textocr_confirmation/qwen3_8b_visionzip_0p30
+LLaVA-1.5-7B,"VisionZip (40%), confirmation",1000,576.0,231.0,36.0,True,True,1.0,1.0,0.5625007653023698,0.5625007653023698,runs/textocr_confirmation/llava15_7b_visionzip_0p40

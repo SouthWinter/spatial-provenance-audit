@@ -1,0 +1,7 @@
+variant,relevance_weight,query_topk,accuracy,hard_negative_fpr,mean_ecr,center_recall,keep_ratio
+norm_heavy,0.50,2,0.757,0.294,0.610614,0.660,0.300
+mixed,0.70,2,0.781,0.262,0.585190,0.639,0.300
+default,0.85,2,0.786,0.240,0.563737,0.623,0.300
+pure_relevance,1.00,2,0.788,0.232,0.543759,0.601,0.300
+top1,0.85,1,0.774,0.260,0.571289,0.626,0.300
+top4,0.85,4,0.780,0.248,0.553038,0.608,0.300

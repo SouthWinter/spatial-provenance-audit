@@ -1,0 +1,23 @@
+{
+  "n": 500,
+  "dataset": "textvqa_val_lite",
+  "keep_ratio": 0.3,
+  "baseline_selector_target_source": "question_only",
+  "candidate_selector_target_source": "focus",
+  "baseline_score": 0.6212000000000001,
+  "candidate_score": 0.6436,
+  "mean_paired_difference": 0.0224,
+  "bootstrap_95_ci": [
+    -0.008399999999999998,
+    0.053399999999999996
+  ],
+  "paired_sign_flip_p_value": 0.15634218289085547,
+  "wins": 48,
+  "losses": 31,
+  "ties": 421,
+  "baseline_rows": "runs/open_ocr_qa/qwen3_8b_textvqa_lite_target_grid0p30_full500/open_ocr_qa_generation.jsonl",
+  "candidate_rows": "runs/open_ocr_qa/qwen3_8b_textvqa_lite_focus_grid0p30_full500/open_ocr_qa_generation.jsonl",
+  "bootstrap_samples": 20000,
+  "permutation_samples": 20000,
+  "seed": 13
+}

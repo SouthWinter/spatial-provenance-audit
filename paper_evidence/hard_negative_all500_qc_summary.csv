@@ -1,0 +1,13 @@
+scope,metric,value
+all_500,rows,500
+all_500,strict_valid_near_miss,449
+all_500,invalid_source_not_visible,37
+all_500,unclear,14
+all_500,target_visible_yes,0
+all_500,target_absence_confirmed,486
+secondary_100_pre_adjudication,qc_decision_agreement,0.820
+secondary_100_pre_adjudication,qc_decision_cohen_kappa,0.323
+secondary_100_pre_adjudication,validity_binary_agreement,0.860
+secondary_100_pre_adjudication,validity_binary_cohen_kappa,0.453
+secondary_100_pre_adjudication,all_core_fields_exact_agreement,0.780
+secondary_100_pre_adjudication,all_core_fields_disagreement_rows,22

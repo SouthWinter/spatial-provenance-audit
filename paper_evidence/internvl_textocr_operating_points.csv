@@ -1,0 +1,5 @@
+run,method,n,acc,hFPR,keep_ratio,ECR,note
+internvl_soft_hfpr,"Soft evidence (50%, risk-selected)",536,0.647,0.175,0.500,0.893,risk-selected operating point; same token selector family but decision/threshold selected for lower hard-negative false positives
+internvl_soft_default,"Soft evidence (50%, default)",536,0.653,0.328,0.500,0.893,default calibrated soft-evidence row; useful to expose calibration sensitivity
+internvl_full,Full calibrated,536,0.646,0.306,1.000,1.000,full-prefix calibrated reference
+internvl_grid50,Grid (50%),536,0.647,0.254,0.500,0.695,same-budget spatial baseline

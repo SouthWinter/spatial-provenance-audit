@@ -1,0 +1,117 @@
+{
+  "inputs": {
+    "dev_alpha1": "runs/llava_textocr_hard/llava15_7b_textocr_hard_full1000_scope_0p40/probe_scores.jsonl",
+    "dev_alpha0": "runs/official_baseline_extension/scope_pure_coverage_alpha0/dev_llava15_7b_scope_alpha0_0p40/probe_scores.jsonl",
+    "conf_alpha1": "runs/textocr_confirmation/llava15_7b_scope_0p40/probe_scores.jsonl",
+    "conf_alpha0": "runs/official_baseline_extension/scope_pure_coverage_alpha0/conf_llava15_7b_scope_alpha0_0p40/probe_scores.jsonl"
+  },
+  "development": {
+    "saliency_plus_coverage": {
+      "n": 1000,
+      "accuracy": 0.598,
+      "positive_accuracy": 0.704,
+      "hfpr": 0.508,
+      "keep_ratio": 0.4,
+      "positive_ecr": 0.641971539549964,
+      "negative_source_coverage": 0.641971539549964,
+      "correct_positive_count": 352,
+      "correct_positive_mean_ecr": 0.6463467021659036,
+      "correct_positive_ecr_lt_0p50": 0.32386363636363635,
+      "correct_positive_ecr_eq_0": 0.15056818181818182,
+      "sequence_likelihood_mean_confidence": 0.562318200779744,
+      "sequence_likelihood_ece_15": 0.035681799220255946,
+      "sequence_likelihood_brier": 0.2366647025342647,
+      "sequence_likelihood_nll": 0.6658382203473041
+    },
+    "pure_coverage": {
+      "n": 1000,
+      "accuracy": 0.587,
+      "positive_accuracy": 0.804,
+      "hfpr": 0.63,
+      "keep_ratio": 0.4,
+      "positive_ecr": 0.6227991977762003,
+      "negative_source_coverage": 0.6227991977762003,
+      "correct_positive_count": 402,
+      "correct_positive_mean_ecr": 0.6330157557590383,
+      "correct_positive_ecr_lt_0p50": 0.3582089552238806,
+      "correct_positive_ecr_eq_0": 0.11940298507462686,
+      "sequence_likelihood_mean_confidence": 0.5723822481813559,
+      "sequence_likelihood_ece_15": 0.03999802021683894,
+      "sequence_likelihood_brier": 0.23559939548553488,
+      "sequence_likelihood_nll": 0.6634307576668909
+    }
+  },
+  "confirmation": {
+    "saliency_plus_coverage": {
+      "n": 1000,
+      "accuracy": 0.586,
+      "positive_accuracy": 0.734,
+      "hfpr": 0.562,
+      "keep_ratio": 0.4,
+      "positive_ecr": 0.6141479170982765,
+      "negative_source_coverage": 0.6141479170982765,
+      "correct_positive_count": 367,
+      "correct_positive_mean_ecr": 0.6366251329061943,
+      "correct_positive_ecr_lt_0p50": 0.34332425068119893,
+      "correct_positive_ecr_eq_0": 0.16893732970027248,
+      "sequence_likelihood_mean_confidence": 0.5693892705674781,
+      "sequence_likelihood_ece_15": 0.036935341743549684,
+      "sequence_likelihood_brier": 0.23743490728713873,
+      "sequence_likelihood_nll": 0.6672387467906166
+    },
+    "pure_coverage": {
+      "n": 1000,
+      "accuracy": 0.579,
+      "positive_accuracy": 0.806,
+      "hfpr": 0.648,
+      "keep_ratio": 0.4,
+      "positive_ecr": 0.6187612873870214,
+      "negative_source_coverage": 0.6187612873870214,
+      "correct_positive_count": 403,
+      "correct_positive_mean_ecr": 0.625544294459665,
+      "correct_positive_ecr_lt_0p50": 0.3548387096774194,
+      "correct_positive_ecr_eq_0": 0.15632754342431762,
+      "sequence_likelihood_mean_confidence": 0.5748672355941512,
+      "sequence_likelihood_ece_15": 0.04964605110205392,
+      "sequence_likelihood_brier": 0.2364570403784083,
+      "sequence_likelihood_nll": 0.6651175737125368
+    }
+  },
+  "confirmation_comparison": {
+    "bootstrap_unit": "image_id",
+    "bootstrap_draws": 10000,
+    "seed": 20260722,
+    "accuracy": {
+      "difference": -0.007,
+      "ci_95": [
+        -0.024,
+        0.01
+      ],
+      "num_images": 500
+    },
+    "hfpr": {
+      "difference": 0.086,
+      "ci_95": [
+        0.052,
+        0.12
+      ],
+      "num_images": 500
+    },
+    "positive_ecr": {
+      "difference": 0.004613370288744846,
+      "ci_95": [
+        -0.03782551494918591,
+        0.04672566236651755
+      ],
+      "num_images": 500
+    },
+    "negative_source_coverage": {
+      "difference": 0.004613370288744846,
+      "ci_95": [
+        -0.038015675467755625,
+        0.046459087166870215
+      ],
+      "num_images": 500
+    }
+  }
+}

@@ -1,0 +1,4 @@
+grid_reservation_ratio,accuracy,hard_negative_fpr,mean_ecr,center_recall,keep_ratio
+0.25,0.786,0.242,0.551614,0.610,0.300
+0.50,0.784,0.246,0.555139,0.612,0.300
+0.75,0.784,0.238,0.507348,0.539,0.300

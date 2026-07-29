@@ -1,0 +1,53 @@
+{
+  "status": "pass",
+  "official_repository": "https://github.com/kinredon/SCOPE",
+  "official_commit": "6bf73069e0d61307051cfda8e25925bc7b7afdd9",
+  "official_source": "third_party/SCOPE/scope/clip_encoder.py",
+  "official_source_sha256": "67e0df9bc11d75290f471b7e3bf0f033d8e9028631ab453e9d26afda7cfb6971",
+  "official_defaults": {
+    "ALPHA": 1.0,
+    "COMBINED": "multi"
+  },
+  "cases": [
+    {
+      "seed": 3,
+      "batch_size": 1,
+      "num_tokens": 8,
+      "feature_width": 5,
+      "keep_count": 1,
+      "exact_index_match": true
+    },
+    {
+      "seed": 7,
+      "batch_size": 1,
+      "num_tokens": 17,
+      "feature_width": 9,
+      "keep_count": 7,
+      "exact_index_match": true
+    },
+    {
+      "seed": 11,
+      "batch_size": 2,
+      "num_tokens": 13,
+      "feature_width": 6,
+      "keep_count": 5,
+      "exact_index_match": true
+    },
+    {
+      "seed": 19,
+      "batch_size": 3,
+      "num_tokens": 9,
+      "feature_width": 4,
+      "keep_count": 9,
+      "exact_index_match": true
+    }
+  ],
+  "smoke_checks": {
+    "two_smoke_rows": true,
+    "fixed_231_of_576_budget": true,
+    "scope_source_recorded": true,
+    "original_order_materialized": true,
+    "paired_probe_mask_stable": true
+  },
+  "claim_boundary": "Source-compatible official-algorithm port in the Hugging Face LLaVA backend; not a number copied from the authors' evaluation logs."
+}

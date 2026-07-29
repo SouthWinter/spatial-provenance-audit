@@ -1,0 +1,128 @@
+{
+  "question": "Does the image contain the exact text \"TOTAL\"? Answer yes or no.",
+  "loss_reduction": "mean_over_unmasked_continuation_tokens",
+  "models": {
+    "Qwen3-VL-8B": [
+      {
+        "answer": "yes",
+        "prompt_tokens": 37,
+        "full_tokens": 40,
+        "continuation_tokens": 3,
+        "tail_token_ids": [
+          151645,
+          198,
+          151644,
+          77091,
+          198,
+          9834,
+          151645,
+          198
+        ]
+      },
+      {
+        "answer": "no",
+        "prompt_tokens": 37,
+        "full_tokens": 40,
+        "continuation_tokens": 3,
+        "tail_token_ids": [
+          151645,
+          198,
+          151644,
+          77091,
+          198,
+          902,
+          151645,
+          198
+        ]
+      }
+    ],
+    "LLaVA-1.5-7B": [
+      {
+        "answer": "yes",
+        "prompt_tokens": 60,
+        "full_tokens": 64,
+        "continuation_tokens": 4,
+        "tail_token_ids": [
+          319,
+          1799,
+          9047,
+          13566,
+          29901,
+          29871,
+          4874,
+          2
+        ],
+        "tail_tokens": [
+          "\u2581A",
+          "SS",
+          "IST",
+          "ANT",
+          ":",
+          "\u2581",
+          "\u2581yes",
+          "</s>"
+        ]
+      },
+      {
+        "answer": "no",
+        "prompt_tokens": 60,
+        "full_tokens": 64,
+        "continuation_tokens": 4,
+        "tail_token_ids": [
+          319,
+          1799,
+          9047,
+          13566,
+          29901,
+          29871,
+          694,
+          2
+        ],
+        "tail_tokens": [
+          "\u2581A",
+          "SS",
+          "IST",
+          "ANT",
+          ":",
+          "\u2581",
+          "\u2581no",
+          "</s>"
+        ]
+      }
+    ],
+    "InternVL3.5-8B": [
+      {
+        "answer": "yes",
+        "prompt_tokens": 25,
+        "full_tokens": 28,
+        "continuation_tokens": 3,
+        "tail_token_ids": [
+          151645,
+          198,
+          151644,
+          77091,
+          198,
+          9834,
+          151645,
+          198
+        ]
+      },
+      {
+        "answer": "no",
+        "prompt_tokens": 25,
+        "full_tokens": 28,
+        "continuation_tokens": 3,
+        "tail_token_ids": [
+          151645,
+          198,
+          151644,
+          77091,
+          198,
+          902,
+          151645,
+          198
+        ]
+      }
+    ]
+  }
+}

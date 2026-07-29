@@ -1,0 +1,10 @@
+scope,metric,value
+all,final_rows,96
+all,problem_rows,0
+all,annotated_rows,96
+all,rows_with_boxes,96
+calibration,agreement_summary_rows,13
+DocVQA-lite,final_rows,48
+DocVQA-lite,rows_with_boxes,48
+TextVQA-lite,final_rows,48
+TextVQA-lite,rows_with_boxes,48

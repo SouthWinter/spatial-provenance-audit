@@ -1,0 +1,10 @@
+scope,metric,value
+all,final_rows,500
+overlap,secondary_rows,100
+overlap,adjudicated_disagreement_rows,10
+provenance,A_B_agreement,90
+provenance,adjudicated_by_B,10
+provenance,primary_A_only,400
+final_qc_decision,invalid_source_not_visible,34
+final_qc_decision,invalid_target_present,1
+final_qc_decision,valid_negative,465
