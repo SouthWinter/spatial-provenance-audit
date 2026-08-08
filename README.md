@@ -4,6 +4,8 @@ This repository accompanies **Beyond Accuracy: Auditing Spatial Provenance in
 Visual Token Pruning for OCR-Critical MLLM Inference** by Feixiang Liu, Qiang
 Qiu, Hao Zhang, and Xinyue Wang.
 
+**Paper:** [arXiv:2608.00077](https://arxiv.org/abs/2608.00077)
+
 It contains the code and compact audit outputs needed to reconstruct
 the paper's TextOCR-Hard protocol, run the three model backends, reproduce
 matched-budget selectors, and rebuild statistical summaries. It intentionally
@@ -371,6 +373,17 @@ development and confirmation statistics, and the five-method three-repetition
 timing readout used by the manuscript. See
 `DATA_AND_ANNOTATION.md` for annotation provenance and
 `RELEASE_AND_LICENSE_MATRIX.md` for component-level redistribution boundaries.
+
+## Citation
+
+```bibtex
+@article{liu2026beyond,
+  title   = {Beyond Accuracy: Auditing Spatial Provenance in Visual Token Pruning for OCR-Critical MLLM Inference},
+  author  = {Liu, Feixiang and Qiu, Qiang and Zhang, Hao and Wang, Xinyue},
+  journal = {arXiv preprint arXiv:2608.00077},
+  year    = {2026}
+}
+```
 
 ## License
 

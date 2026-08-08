@@ -15,3 +15,18 @@ authors:
     given-names: Hao
   - family-names: Wang
     given-names: Xinyue
+preferred-citation:
+  type: article
+  title: "Beyond Accuracy: Auditing Spatial Provenance in Visual Token Pruning for OCR-Critical MLLM Inference"
+  authors:
+    - family-names: Liu
+      given-names: Feixiang
+    - family-names: Qiu
+      given-names: Qiang
+    - family-names: Zhang
+      given-names: Hao
+    - family-names: Wang
+      given-names: Xinyue
+  year: 2026
+  doi: "10.48550/arXiv.2608.00077"
+  url: "https://arxiv.org/abs/2608.00077"
